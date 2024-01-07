@@ -108,7 +108,7 @@ header {
 .mindset h2 {
   color: #fff;
 }
-.mindset .btn-call-now {
+.mindset .btn-call-now, .footer-form .btn-subcribe {
   border-radius: 5px;
   background: #fff;
   width: 160px;
@@ -118,4 +118,41 @@ header {
   font-weight: 600;
   border: 0;
   margin-top: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #151414;
+  color: #fff;
+  display: flex;
+  padding: 130px 10%;
+  gap: 50px;
+  justify-content: space-between;
+}
+.footer-content {
+  width: 50%;
+}
+.footer-content p {
+  padding: 10px 0;
+}
+.footer-content .social-links a {
+  margin-top: 50px;
+  margin-right: 20px;
+}
+.footer-content h3,
+.footer-form h3 {
+  color: #fff;
+  margin-bottom: 25px;
+}
+.footer-form input[type="email"] {
+  width: 100%;
+  color: #f3f3f3;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 5px;
+}
+.footer-form .btn-subcribe {
+
 }
