@@ -96,3 +96,26 @@ header {
 .plan-container h3 {
   margin: 10px 0;
 }
+
+/* Mindset styles */
+.mindset {
+  background-image: url("../images/gradient2.png"), url("../images/watch.png");
+  padding: 60px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: auto;
+}
+.mindset h2 {
+  color: #fff;
+}
+.mindset .btn-call-now {
+  border-radius: 5px;
+  background: #fff;
+  width: 160px;
+  height: 64px;
+  color: #f15b22;
+  font-size: 20px;
+  font-weight: 600;
+  border: 0;
+  margin-top: 20px;
+}
