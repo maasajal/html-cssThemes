@@ -23,7 +23,7 @@ p {
 }
 /* Header styles */
 header {
-  background-image: url("../images/banner/banner1.png");
+  background-image: url("../images/banner/banner2.png");
   background-size: cover;
   height: 800px;
 }
@@ -108,7 +108,8 @@ header {
 .mindset h2 {
   color: #fff;
 }
-.mindset .btn-call-now, .footer-form .btn-subcribe {
+.mindset .btn-call-now,
+.footer-form .btn-subcribe {
   border-radius: 5px;
   background: #fff;
   width: 160px;
@@ -152,7 +153,4 @@ footer {
   background-color: transparent;
   padding: 20px;
   border-radius: 5px;
-}
-.footer-form .btn-subcribe {
-
 }
