@@ -6,7 +6,16 @@
 body {
   font-family: "Work Sans", sans-serif;
 }
-
+h2 {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+p {
+  padding: 30px 0;
+  font-size: 16px;
+  line-height: 26px; /* 162.5% */
+}
 /* Header styles */
 header {
   background-image: url("../images/banner/banner1.png");
@@ -26,9 +35,6 @@ header {
 }
 .header-content p {
   max-width: 500px;
-  padding: 30px 0;
-  font-size: 16px;
-  line-height: 26px; /* 162.5% */
 }
 .btn-primary {
   border-radius: 5px;
@@ -40,3 +46,29 @@ header {
   flex-shrink: 0;
   border: 0;
 }
+
+/* Main container styles */
+.main-container {
+  /* max-width: 920; */
+  width: 80%;
+  margin: 0 auto;
+}
+.main-container section {
+  margin: 80px 0;
+}
+
+/* Failures of previous year styles */
+
+.failures {
+  display: flex;
+  align-items: center;
+}
+.failures > div {
+  padding: 0 50px;
+}
+.failures ul li {
+  font-size: 16px;
+  line-height: 26px; /* 162.5% */
+  list-style: none;
+}
+
